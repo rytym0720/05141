@@ -1,0 +1,623 @@
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+letter-spacing: 1.5px;
+}
+
+.top{
+  display: flex;
+  
+}
+
+header{
+  background-color: white;
+  height: 70px;
+  /* position: fixed; */
+}
+
+.logo{
+  width: 133px;
+  position: relative;left:120px;top:10px;
+  height: 46px;
+
+}
+
+.top p{
+  position: relative;top:15px;left:120px;
+}
+
+.btn{
+  border-radius: 60px;
+  background-color:#cd5c5c;
+  padding: 10px;
+  text-align: center;
+  color: #f5f5f5;
+  height: 30px;
+  width: 300px;
+  position: relative;top:0px;left: 700px;
+  text-decoration: none;
+}
+
+.top-wrapper{
+  background-image: url(../main.jpg);
+background-size: cover;
+height: 550px;
+}
+
+.container{
+  margin: 0 auto;
+padding-top: 100px;
+  width: 400px;
+}
+
+h1{
+text-align: center;
+}
+
+h3{
+  text-align: center;
+  font-size: 20px; 
+}
+
+#siryou{
+  background-color: #ebb94d;
+  height: 600px;
+}
+
+#siryou h3{
+  text-align: center;
+  color: #f5f5f5;
+  padding-top: 50px;
+  font-size: 20px;
+} 
+
+#siryou p{
+  background-color: white;
+  text-align: center;
+  color: deeppink;
+  width: 500px;
+  margin-left: 450px;
+  font-size: 18px;
+  font-weight: 800;
+  height: 25px;
+}
+
+.conversionbtn {
+  cursor: pointer;
+  padding: 30px 250px;
+  background-color: #da6b64;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 34px;
+position: relative;top:50px;left: 210px;
+margin:0 auto ;
+  /* width: 1028px; */
+  text-decoration: none;
+
+}
+.oubo h4{
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;top:100px;
+ /* margin: 0 auto; */
+font-weight: 400;
+
+}
+
+.freedom{
+  background-image: url(../introbottom.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
+.freedom p{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+span{
+  color: gold;
+  font-size: 50px;
+}
+
+.explain{
+  text-align: center;
+  /* position: relative;left: 300px; */
+}
+
+.explain h5{
+  /* display: block; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 2.4rem;
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.underline {
+  font-weight: 900;
+  color: #333333;
+  font-size: 20px;
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d)); */
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.circle1 {
+  color:#fff;
+  background-color: #ebb94d;
+  padding: 0;
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.abouticon {
+  position: relative;
+  top: -40px;
+  /* left:650px */
+}
+
+.txtl{
+  font-size: 50px;
+}
+
+.about {
+  padding: 0 0 40px 0;
+  background-color: #fef5e0;
+  text-align: center;
+}
+
+
+.aboutbox {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+  padding:20px;
+  background-color: #fff;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+}
+
+.boxes{
+  display: flex;
+  margin-left: 200px;
+}
+
+.yellowbracketsnarrow {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* iSaraで「基本的なプログラミングスキル」は教えません */
+.step{
+  background-image: url(../aboutsecondbg.jpg);
+  background-size: cover;
+
+}
+
+.step0{
+  margin-top:-30px;
+  padding-top:30px;
+  font-size: 25px;
+  color: white;
+text-align: center;
+}
+
+.step1{
+  color:white;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.span1{
+  font-size: 20px;
+  color:orange
+}
+
+.steps{
+  display: flex;
+}
+
+.manabu1{
+  height: 150px;
+width: 350px;
+background-color: white;
+color: white;
+border-radius: 5px;
+margin-top: 20px;
+margin-left: 120px;
+margin-bottom: 50px;
+}
+
+.manabu2{
+  height: 150px;
+width: 350px;
+background-color: white;
+color: white;
+border-radius: 5px;
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 50px;
+
+}
+
+.manabu3{
+  height: 150px;
+width: 350px;
+background-color: white;
+color: white;
+border-radius: 5px;
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 50px;
+
+
+}
+
+
+.root{
+  background-color: #ebb94d;
+  color: white;
+  width:285px;
+height:20px;
+position: relative;top: 20px;left: 30px;
+text-align: center;
+border-radius: 5px;
+}
+
+.manabu1 p{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+}
+
+.manabu2 p{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+}
+
+
+.manabu3 p{
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 800;
+}
+
+.blue{
+  position: relative;top: 100px;
+  background-color: #016ea9;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  height: 100px;
+}
+
+.blue p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ .manabu{
+   margin-top: 100px;
+  height: 300px;
+  color: black;
+ background-color: white;
+} 
+
+.manabi{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.nouryoku{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.yellow{
+  display: flex;
+}
+
+.box2{
+  margin-top: 50px;
+  margin-left: 170px;
+}
+.box3{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.box4{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.box5{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.korega{
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.melit{
+  background-color: #fef5e0;
+  margin-top: 200px;
+  text-align: center;
+  height: 1000px
+}
+
+.txtlt{
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.three{
+  font-size: 35px;
+  color:black;
+}
+
+.melits{
+  display: flex;
+}
+
+.threemelit{
+  text-align: left;
+  margin-left: 180px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+h6{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ebb94d;
+}
+
+.threemelit2{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 300px;
+  height: 150px;
+}
+
+.threemelit3{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 300px;
+  height: 150px;
+}
+
+.tx{
+  margin-top:-30px;
+  
+}
+
+
+.aboutbox2{
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 30px auto;
+  padding:20px;
+  background-color: #fff;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+
+.support{
+  text-align: center;
+  color:#ebb94d;
+  
+}
+
+.rimort{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.rimort2{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.kotowari{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.teachers{
+  padding: 40px 0;
+  text-align: center;
+  background-image: url(../teacherbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.member{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.member-container{
+  text-align: center;
+}
+
+.members{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.someya1{
+  background: rgba(0, 0, 0, 0);
+  height: 300px;
+  width: 350px;
+  border: 2px solid white;
+  /* margin-top: 200px; */
+  margin-left: 250px;
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+.someya{
+  border-radius: 50%;
+  position: relative;left: -260px;top: 30px;
+}
+
+.someya1 p{
+  color: white; 
+}
+
+.someya-3{
+  color: white;
+  width: 250px;
+  text-align:left;
+  margin-left:50px;
+}
+
+/* 成田 */
+
+.narita1{
+  background: rgba(0, 0, 0, 0);
+  height: 300px;
+  width: 350px;
+  border: 2px solid white;
+  /* margin-top: 200px; */
+  margin-left: 700px;
+  margin-top: -538px;
+  padding-top: -30px;
+  text-align: center;
+
+}
+
+.narita{
+  border-radius: 50%;
+  position: relative;left:250px;top: -510px;
+}
+
+.narita1 p{
+  color: white;
+  
+}
+
+.narita-3{
+  color: white;
+  width: 250px;
+  text-align:left;
+  margin-left:50px;
+}
+
+/* 大滝 */
+
+.shohey1{
+  background: rgba(0, 0, 0, 0);
+  height: 300px;
+  width: 350px;
+  border: 2px solid white;
+  /* margin-top: 200px; */
+  margin-left: 250px;
+  margin-top: 60px;
+  padding-top: -50px;
+  text-align: center;
+
+}
+
+
+
+.shohey{
+  border-radius: 50%;
+  position: relative;left:-230px;top: 90px;
+}
+
+.shohey1 p{
+  color: white;
+  padding-top: 10px;
+  
+}
+
+.shohey-3{
+  margin-top: -10px;
+  color: white;
+  width: 250px;
+  text-align:left;
+  margin-left:50px;
+}
+
+/* マナブ */
+
+.manabe1{
+  background: rgba(0, 0, 0, 0);
+  height: 300px;
+  width: 350px;
+  border: 2px solid white;
+  /* margin-top: 200px; */
+  margin-left: 700px;
+  margin-top: -708px;
+  padding-top: -30px;
+  text-align: center;
+
+}
+
+.manabe{
+  border-radius: 50%;
+  position: relative;left:250px;top: -610px;
+}
+
+.manabe1 p{
+  color: white;
+  
+}
+
+.manabe-3{
+  color: white;
+  width: 250px;
+  text-align:left;
+  margin-left:50px;
+}
